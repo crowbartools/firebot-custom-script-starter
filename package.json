@@ -1,0 +1,22 @@
+{
+  "name": "firebot-custom-script-starter",
+  "scriptOutputName": "starterScript",
+  "version": "1.0.0",
+  "description": "A starter Firebot custom script",
+  "main": "",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "ebiggz",
+  "license": "GNU3",
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "firebot-custom-scripts-types": "https://github.com/crowbartools/firebot-custom-scripts-types/tarball/ca4a44c2868140456e7b0637e1b8fd7c20115971",
+    "terser-webpack-plugin": "^4.2.3",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.5",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.1.0"
+  },
+  "dependencies": {}
+}

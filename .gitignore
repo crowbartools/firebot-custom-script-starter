@@ -1,3 +1,6 @@
+# Project
+dist/
+
 # Logs
 logs
 *.log
@@ -102,3 +105,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# OS
+.DS_Store
