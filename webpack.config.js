@@ -32,6 +32,7 @@ module.exports = {
       new TerserPlugin({
         terserOptions: {
           keep_fnames: /index/,
+          mangle: false,
         },
       }),
     ],
