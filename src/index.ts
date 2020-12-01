@@ -1,10 +1,10 @@
-import { FirebotCustomScript } from "firebot-custom-scripts-types";
+import { Firebot } from "firebot-custom-scripts-types";
 
 interface Params {
   message: string;
 }
 
-const script: FirebotCustomScript<Params> = {
+const script: Firebot.CustomScript<Params> = {
   getScriptManifest: () => {
     return {
       name: "Starter Custom Script",
