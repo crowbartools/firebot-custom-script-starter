@@ -28,12 +28,17 @@ module.exports = {
   },
   optimization: {
     minimize: true,
+
     minimizer: [
       new TerserPlugin({
         terserOptions: {
           keep_fnames: /index/,
           mangle: false,
+          format: {
+            comments: false,
+          },
         },
+        extractComments: false,
       }),
     ],
   },
