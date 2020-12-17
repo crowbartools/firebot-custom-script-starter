@@ -5,8 +5,13 @@
 2. `npm install`
 
 ### Building
+Dev:
+1. `npm run build:dev`
+- Automatically copies the compiled .js to Firebots scripts folder.
+
+Release:
 1. `npm run build`
-2. Copy the `.js` file in `/dist` to Firebot's `scripts` folder
+- Copy .js from `/dist`
 
 ### Note
 - Keep the script definition object (that contains the `run`, `getScriptManifest`, and `getDefaultParameters` funcs) in the `index.ts` file as it's important those function names don't get minimized.
