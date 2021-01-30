@@ -1,13 +1,13 @@
 # Starter Firebot Custom Script in Typescript
 
 ### Setup
-1. Create a new repo based off this template or simply clone it.
+1. Create a new repo based off this template (Click "Use this Template" above) or simply fork it
 2. `npm install`
 
 ### Building
 Dev:
 1. `npm run build:dev`
-- Automatically copies the compiled .js to Firebots scripts folder.
+- Automatically copies the compiled .js to Firebot's scripts folder.
 
 Release:
 1. `npm run build`
