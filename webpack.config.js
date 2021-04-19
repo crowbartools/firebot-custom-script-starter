@@ -7,7 +7,7 @@ module.exports = {
   mode: "production",
   devtool: false,
   entry: {
-    main: "./src/index.ts",
+    main: "./src/main.ts",
   },
   output: {
     libraryTarget: "commonjs2",
@@ -32,7 +32,7 @@ module.exports = {
     minimizer: [
       new TerserPlugin({
         terserOptions: {
-          keep_fnames: /index/,
+          keep_fnames: /main/,
           mangle: false,
           format: {
             comments: false,
