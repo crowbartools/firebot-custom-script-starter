@@ -14,7 +14,7 @@
   "license": "GNU3",
   "devDependencies": {
     "@types/node": "^14.14.6",
-    "firebot-custom-scripts-types": "https://github.com/crowbartools/firebot-custom-scripts-types/tarball/99adbf28c0ed2d8a9bc3df01bb6639536f598d5b",
+    "firebot-custom-scripts-types": "https://github.com/crowbartools/firebot-custom-scripts-types/tarball/edf86fd722f558cfdad89511fb915f0cf356d522",
     "jest": "^26.6.3",
     "terser-webpack-plugin": "^4.2.3",
     "ts-jest": "^26.4.4",
