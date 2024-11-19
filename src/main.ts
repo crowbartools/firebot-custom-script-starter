@@ -21,6 +21,7 @@ const script: Firebot.CustomScript<Params> = {
         default: "Hello World!",
         description: "Message",
         secondaryDescription: "Enter a message here",
+        title: "Hello!",
       },
     };
   },
